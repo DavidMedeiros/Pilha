@@ -1,3 +1,4 @@
+package pilha;
 
 public interface Pilha<T extends Comparable<T>> {
 	
