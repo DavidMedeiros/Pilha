@@ -10,7 +10,7 @@ public class PilhaImplements<T extends Comparable<T>> implements Pilha<T>{
 		this.capacidade = capacidade;
 		this.pilha = (T[]) new Comparable[capacidade];
 		this.topo = -1;
-	}
+	}   
 
 	@Override
 	public boolean push(T element) {
